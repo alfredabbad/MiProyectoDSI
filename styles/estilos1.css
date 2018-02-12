@@ -1,0 +1,66 @@
+/*Estilos para la página princilal*/
+body {
+	background: rgb(221,221,221);
+}
+header {
+	background: rgb(193,193,193);
+	display: flex;
+	flex-wrap: wrap;
+}
+footer {
+	background: rgb(132,132,132);
+	text-align: center;
+	border: thin solid rgb(71,71,71);
+}
+#logoEncab {
+	width: 15%;
+}
+#logoDSI, #logosMarcas {
+	width: 90%;
+	margin: 0.5em;
+}
+#tituloEncab {
+	width: 72%;
+	text-align: justify;
+}
+#tituloEncab2 {
+	width: 12%;
+}
+.central {
+	width: 60%;
+}
+.contenedor {
+	display: flex;
+	flex-wrap: wrap;
+}
+.imglateral {
+	width: 95%;
+	padding: 0;
+	margin: 0.25em 0.5em;
+}
+.lateral {
+	background: #a7cfdf; /* Old browsers */
+	background: -webkit-linear-gradient(rgb(85,137,174) 12%, rgb(175,164,226) 94%);
+	background: -o-linear-gradient(rgb(85,137,174) 12%, rgb(175,164,226) 94%);
+	background: linear-gradient(rgb(85,137,174) 12%, rgb(175,164,226) 94%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=rgb(85,137,174), endColorstr=rgb(175,164,226),GradientType=0 );
+	width: 20%;
+}
+.menu {
+	border: thin solid gray;
+	text-align: center;
+	background: rgb(119,172,210);
+}
+.opciones {
+	background: rgb(102,148,180);
+	display: inline;
+	padding: 0 2em ;
+	font-size: 1em;
+}
+.opciones:hover {
+	background: rgb(71,105,128);
+}
+.texto {
+	text-align: justify;
+	padding: 0.25em 0.5em ;
+}
